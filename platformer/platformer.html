@@ -6,11 +6,12 @@
         <link rel="stylesheet" href="../commonStyle.css">
     </head>
     <body>
+        <div class="game-container">
         <script src="js/main.js"></script>
         <script>
-            let simpleLevel = new Level(simpleLevelPlan);
-            let display = new DOMDisplay(document.body, simpleLevel);
+            runGame(GAME_LEVELS, DOMDisplay);
         </script>
+        </div>
         <div>
             <a href="../index.html" alt="back to menu">
                 <button>To Menu</button>
