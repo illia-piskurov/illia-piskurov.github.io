@@ -1,12 +1,25 @@
 body {
-    background: #836cd6;
+    background: #F2C2CF;
 }
 
-p {
+div {
+    text-align: left;
+}
+
+div.main {
+    text-align: center;
+}
+
+button {
     position: relative;
-    background: #f3c735;
+    background: #F2ADA7;
     width: max-content;
     top: 3vh;
-    left: 3vw;
     font-size: 4vw;
+    color:#F2695C;
+    text-shadow: #A63C3C 1px 3px 3px;
+    box-shadow: #A63C3C 0px 0px 3px;
+    margin: 1vw;
+    border-radius: 1vw;
+    text-align: center;
 }
