@@ -1,0 +1,12 @@
+body {
+    background: #836cd6;
+}
+
+p {
+    position: relative;
+    background: #f3c735;
+    width: max-content;
+    top: 3vh;
+    left: 3vw;
+    font-size: 4vw;
+}
