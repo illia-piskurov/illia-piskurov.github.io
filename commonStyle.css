@@ -1,9 +1,41 @@
 body {
-    background: #F2C2CF;
+    background-size: 100%;
+    background-image: url(res/background.jfif);
+
+}
+
+header {
+    text-align: center;
+    border-radius: 30px;
+    font-family: 'Anton', sans-serif;
+    font-size: 1.5vw;
+    color: #7ba1db;
+    margin: 0%;
+    background: url(res/header.jpg);
+}
+
+.headerButton {
+    position: initial;
+    background: url(res/header.jpg);
+    width: max-content;
+    top: 3vh;
+    font-size: 1.5vw;
+    color:#7ba1db;
+    text-shadow: #5a7caf 1px 3px 3px;
+    box-shadow: #7ba1db 0px 0px 3px;
+    margin: 1vw;
+    border-radius: 1vw;
+    text-align: center;
 }
 
 div {
     text-align: left;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 20px;
 }
 
 div.main {
@@ -12,14 +44,14 @@ div.main {
 
 button {
     position: relative;
-    background: #F2ADA7;
+    background: url(res/buttonsBackground.jpg);
     width: max-content;
     top: 3vh;
-    font-size: 4vw;
-    color:#F2695C;
+    font-size: 3vw;
+    color:#bd4439;
     text-shadow: #A63C3C 1px 3px 3px;
     box-shadow: #A63C3C 0px 0px 3px;
-    margin: 1vw;
     border-radius: 1vw;
+    margin-bottom: 30px;
     text-align: center;
 }

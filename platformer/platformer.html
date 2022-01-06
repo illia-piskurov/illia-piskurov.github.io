@@ -12,6 +12,21 @@
             runGame(GAME_LEVELS, DOMDisplay);
         </script>
         </div>
+        <!-- <div>
+            <button id="left">  &lt; </button>
+            <button id="right"> &gt; </button>
+        </div> -->
+        <script>
+            let left = document.getElementById("left");
+            let game = document.getElementsByClassName("game")[0];
+            left.onclick = function() {
+                let magic = new Event("keydown");
+                magic.keyCode = 37;
+                magic.isTrusted = true;
+                magic.bubbles = true;
+                game.dispatchEvent(magic);
+            }
+        </script>
         <div>
             <a href="../index.html" alt="back to menu">
                 <button>To Menu</button>
