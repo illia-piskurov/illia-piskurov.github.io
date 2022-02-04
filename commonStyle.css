@@ -1,35 +1,67 @@
 body {
     background-size: 100%;
-    background-image: url(res/background.jfif);
-
+    background-color: rgb(39, 2, 30);
+    font-size: medium;
+    font-family: 'Anton', sans-serif;
 }
 
 header {
     text-align: center;
-    border-radius: 30px;
-    font-family: 'Anton', sans-serif;
-    font-size: 1.5vw;
+    font-size: 1.2em;
     color: #7ba1db;
-    margin: 0%;
     background: url(res/header.jpg);
+    border-radius: 1.5em;
+}
+
+footer {
+    text-align: center;
+    font-size: 1.2em;
+    color: #7ba1db;
+    background: url(res/header.jpg);
+    border-radius: 1.5em;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    background: url(res/header.jpg);
+    margin: 10px 0px 0px 0px;
+    border-radius: 1.2em;
+}
+
+nav ul {
+    margin: 0px;
+    margin-left: 20px;
+    list-style-type: none;
+    padding: 5px 0px 5px 0px;
+}
+
+nav ul li {
+    display: inline;
+    padding: 5px 10px 5px 10px;
+}
+
+nav ul li a:link, nav ul li a:visited {
+    color: #5a7caf;
+}
+
+nav ul li.selected {
+    background-color: #0f223f;
 }
 
 .headerButton {
     position: initial;
     background: url(res/header.jpg);
     width: max-content;
-    top: 3vh;
-    font-size: 1.5vw;
+    font-size: 1.2em;
     color:#7ba1db;
     text-shadow: #5a7caf 1px 3px 3px;
     box-shadow: #7ba1db 0px 0px 3px;
     margin: 1vw;
     border-radius: 1vw;
     text-align: center;
-}
-
-div {
-    text-align: left;
 }
 
 .logo {
@@ -42,16 +74,45 @@ div.main {
     text-align: center;
 }
 
-button {
+#tableContainer {
+    width: 100%;
+    display: table;
+    border-spacing: 10px;
+}
+
+#tableRow {
+    display: table-row;
+}
+
+section#main {
+    display: table-cell;
+    background: url(res/SectionBackground.png);
+    padding: 15px;
+    width: 50%;
+    vertical-align: top;
+    border-radius: 1.5em;
+    margin-right: 10px;
+    vertical-align: top;
+}
+
+aside#sidebar {
+    padding: 15px;
+    width: 50%;
+    display: table-cell;
+    border-radius: 1.5em;
+    background-image: url(res/SectionBackground.png);
+    vertical-align: top;
+}
+
+.gameButton {
     position: relative;
     background: url(res/buttonsBackground.jpg);
     width: max-content;
-    top: 3vh;
-    font-size: 3vw;
+    font-size: 2em;
     color:#bd4439;
     text-shadow: #A63C3C 1px 3px 3px;
     box-shadow: #A63C3C 0px 0px 3px;
     border-radius: 1vw;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     text-align: center;
 }
