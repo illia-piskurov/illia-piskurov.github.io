@@ -102,6 +102,8 @@ aside#sidebar {
     border-radius: 1.5em;
     background-image: url(res/SectionBackground.png);
     vertical-align: top;
+    /*color:#bd4439;*/
+    color: #bd4439;;
 }
 
 .gameButton {
