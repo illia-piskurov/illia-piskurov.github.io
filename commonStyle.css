@@ -1,6 +1,6 @@
 body {
     background-size: 100%;
-    background-color: rgb(39, 2, 30);
+    background-color: #2E3440;
     font-size: medium;
     font-family: 'Anton', sans-serif;
 }
@@ -8,16 +8,16 @@ body {
 header {
     text-align: center;
     font-size: 1.2em;
-    color: #7ba1db;
-    background: url(res/header.jpg);
+    color: #A3BE8C;
+    background: #434C5E;
     border-radius: 1.5em;
 }
 
 footer {
     text-align: center;
     font-size: 1.2em;
-    color: #7ba1db;
-    background: url(res/header.jpg);
+    color: #A3BE8C;
+    background: #434C5E;
     border-radius: 1.5em;
 }
 
@@ -26,7 +26,7 @@ a {
 }
 
 nav {
-    background: url(res/header.jpg);
+    background: #434C5E;
     margin: 10px 0px 0px 0px;
     border-radius: 1.2em;
 }
@@ -44,21 +44,21 @@ nav ul li {
 }
 
 nav ul li a:link, nav ul li a:visited {
-    color: #5a7caf;
+    color: #B48EAD;
 }
 
 nav ul li.selected {
-    background-color: #0f223f;
+    background-color: #5d677a;
 }
 
 .headerButton {
     position: initial;
-    background: url(res/header.jpg);
+    background: #434C5E;
     width: max-content;
     font-size: 1.2em;
-    color:#7ba1db;
+    color:#A3BE8C;
     text-shadow: #5a7caf 1px 3px 3px;
-    box-shadow: #7ba1db 0px 0px 3px;
+    box-shadow: #A3BE8C 0px 0px 3px;
     margin: 1vw;
     border-radius: 1vw;
     text-align: center;
@@ -86,7 +86,7 @@ div.main {
 
 section#main {
     display: table-cell;
-    background: url(res/SectionBackground.png);
+    background: #434C5E;
     padding: 15px;
     width: 50%;
     vertical-align: top;
@@ -100,20 +100,19 @@ aside#sidebar {
     width: 50%;
     display: table-cell;
     border-radius: 1.5em;
-    background-image: url(res/SectionBackground.png);
+    background: #434C5E;
     vertical-align: top;
-    /*color:#bd4439;*/
-    color: #bd4439;;
+    color: #D8DEE9;
 }
 
 .gameButton {
     position: relative;
-    background: url(res/buttonsBackground.jpg);
+    background: #434C5E;
     width: max-content;
     font-size: 2em;
-    color:#bd4439;
-    text-shadow: #A63C3C 1px 3px 3px;
-    box-shadow: #A63C3C 0px 0px 3px;
+    color:#EBCB8B;
+    text-shadow: #D08770 1px 3px 3px;
+    box-shadow: #EBCB8B 0px 0px 3px;
     border-radius: 1vw;
     margin-bottom: 15px;
     text-align: center;
