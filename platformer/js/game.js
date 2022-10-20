@@ -1,4 +1,4 @@
-import GAME_LEVELS from "./gameLevels";
+import { GAME_LEVELS } from "./gameLevels"
 
 class Vector {
     constructor(x, y) {
