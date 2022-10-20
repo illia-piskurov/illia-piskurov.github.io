@@ -1,4 +1,4 @@
-import { GAME_LEVELS } from "./gameLevels"
+import { GAME_LEVELS } from "./gameLevels.js"
 
 class Vector {
     constructor(x, y) {
