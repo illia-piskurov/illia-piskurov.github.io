@@ -1,23 +1,20 @@
 body {
     background-size: 100%;
-    background-color: #2E3440;
-    font-size: medium;
-    font-family: 'Anton', sans-serif;
+    background: linear-gradient(to right, #458588, #d79921);
+    font-size: 1.5em;
+    font-family: 'Fira Sans', sans-serif;
+    color: #282828
 }
 
 header {
     text-align: center;
-    font-size: 1.2em;
-    color: #A3BE8C;
-    background: #434C5E;
+    background: rgba(255, 255, 255, 0.3);
     border-radius: 1.5em;
 }
 
 footer {
     text-align: center;
-    font-size: 1.2em;
-    color: #A3BE8C;
-    background: #434C5E;
+    background: rgba(255, 255, 255, 0.3);
     border-radius: 1.5em;
 }
 
@@ -26,7 +23,7 @@ a {
 }
 
 nav {
-    background: #434C5E;
+    background: rgba(255, 255, 255, 0.3);
     margin: 10px 0px 0px 0px;
     border-radius: 1.2em;
 }
@@ -44,24 +41,26 @@ nav ul li {
 }
 
 nav ul li a:link, nav ul li a:visited {
-    color: #B48EAD;
+    color: #282828
 }
 
 nav ul li.selected {
-    background-color: #5d677a;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
 }
 
-.headerButton {
+.button {
     position: initial;
-    background: #434C5E;
+    background: rgba(255, 255, 255, 0.3);
     width: max-content;
     font-size: 1.2em;
-    color:#A3BE8C;
-    text-shadow: #5a7caf 1px 3px 3px;
-    box-shadow: #A3BE8C 0px 0px 3px;
+    text-shadow: #7c6f64 1px 2px 2px;
+    box-shadow: #7c6f64 2px 3px 2px;
     margin: 1vw;
     border-radius: 1vw;
     text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+    color: #282828
 }
 
 .logo {
@@ -86,7 +85,7 @@ div.main {
 
 section#main {
     display: table-cell;
-    background: #434C5E;
+    background: rgba(255, 255, 255, 0.3);
     padding: 15px;
     width: 50%;
     vertical-align: top;
@@ -100,20 +99,23 @@ aside#sidebar {
     width: 50%;
     display: table-cell;
     border-radius: 1.5em;
-    background: #434C5E;
+    background: rgba(255, 255, 255, 0.3);
     vertical-align: top;
-    color: #D8DEE9;
 }
 
-.gameButton {
-    position: relative;
-    background: #434C5E;
-    width: max-content;
-    font-size: 2em;
-    color:#EBCB8B;
-    text-shadow: #D08770 1px 3px 3px;
-    box-shadow: #EBCB8B 0px 0px 3px;
-    border-radius: 1vw;
-    margin-bottom: 15px;
+img {
+    border-radius: 15px;
+}
+
+.myPhoto {
+    border-radius: 50%;
+}
+
+.profile {
+    text-align: center;
+}
+
+.container{
+    width: 100%;
     text-align: center;
 }

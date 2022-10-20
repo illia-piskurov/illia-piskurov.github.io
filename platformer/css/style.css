@@ -1,5 +1,5 @@
 .background {
-    background: rgb(52, 166, 251);
+    background: #458588;
     table-layout: fixed;
     border-spacing: 0;
 }
@@ -9,11 +9,11 @@
 }
 
 .lava {
-    background: rgb(255, 100, 100);
+    background: #cc241d;
 }
 
 .wall {
-    background: white;
+    background: #bdae93;
 }
 
 .actor {
@@ -21,15 +21,15 @@
 }
 
 .coin {
-    background: rgb(241, 229, 89);
+    background: #d79921;
 }
 
 .player {
-    background: rgb(64, 64, 64);
+    background: #3c3836;
 }
 
 .lost .player {
-    background: rgb(160, 64, 64);
+    background: #9d0006;
 }
 
 .won .player {
