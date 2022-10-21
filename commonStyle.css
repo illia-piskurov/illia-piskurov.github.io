@@ -6,13 +6,7 @@ body {
     color: #282828
 }
 
-header {
-    text-align: center;
-    background: rgba(255, 255, 255, 0.3);
-    border-radius: 1.5em;
-}
-
-footer {
+.block {
     text-align: center;
     background: rgba(255, 255, 255, 0.3);
     border-radius: 1.5em;
@@ -69,40 +63,6 @@ nav ul li.selected {
     margin-top: 20px;
 }
 
-div.main {
-    text-align: center;
-}
-
-#tableContainer {
-    width: 100%;
-    display: table;
-    border-spacing: 10px;
-}
-
-#tableRow {
-    display: table-row;
-}
-
-section#main {
-    display: table-cell;
-    background: rgba(255, 255, 255, 0.3);
-    padding: 15px;
-    width: 50%;
-    vertical-align: top;
-    border-radius: 1.5em;
-    margin-right: 10px;
-    vertical-align: top;
-}
-
-aside#sidebar {
-    padding: 15px;
-    width: 50%;
-    display: table-cell;
-    border-radius: 1.5em;
-    background: rgba(255, 255, 255, 0.3);
-    vertical-align: top;
-}
-
 img {
     border-radius: 15px;
 }
@@ -115,7 +75,10 @@ img {
     text-align: center;
 }
 
-.container{
-    width: 100%;
+.container {
     text-align: center;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 1.5em;
+    margin: 10px;
+    padding: 10px;
 }
