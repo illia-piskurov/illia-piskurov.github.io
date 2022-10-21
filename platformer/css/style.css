@@ -42,3 +42,8 @@
     max-height: 450px;
     position: relative;
 }
+
+.game-container {
+    margin: 10px;
+    padding: 10px;
+}
