@@ -47,3 +47,10 @@
     margin: 10px;
     padding: 10px;
 }
+
+.game-block {
+    width: max-content;
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+}
